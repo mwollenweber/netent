@@ -1,0 +1,10 @@
+1. Change the mutex as follows:
+
+Read lock: all threads can read, but writes are blocked
+write lock: all reads/writes blocked
+
+2. Actually implement the RST blocking
+
+3. Implement the save capture method
+
+4. Generic cleanup
